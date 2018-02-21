@@ -12,18 +12,24 @@ body{
 }
 
 .xcontainer {    /* styling the top intro page  */
+  background-image: url("../img/steven2.gif");
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
   background-color: black;
   text-align: left;
   padding-top: 0.9em;
   padding-left: 5em;
+  min-height: 600px;
 }
+
 
 .xabout{  /* styling the second "about me" page  */
   background-color: white;
   text-align: right;
   padding-top: 0.09em;
   padding-left: 5em;
-  margin-top: 249px;
 }
 
 .xprojects{ /* styling the third "projects" page  */
@@ -41,7 +47,7 @@ h1{
   font-weight: 900;
   text-shadow: 0px 1px, 1px 0px, 1px 1px;
   margin-top: 130px;
-  background-color: rgba(0,0,0,0.5);
+
 }
 
 h2{
@@ -84,10 +90,10 @@ h4{
 p{
   color: black;
   font-size: 30px;
-  margin-top: 10px;
+  margin-top: 0;
   background-color: rgba(0,0,0,0);
   margin-right: 60px;
-  margin-bottom:60px;
+  margin-bottom:0;
   padding-bottom: 60px;
   line-height: 40px;
 }
@@ -149,10 +155,9 @@ mark{
 
 /* Styling the main home profile picture */
 .npic{
-  float:left;
-  align: right;
-  margin-top: -100px;
   position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 
