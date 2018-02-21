@@ -2,37 +2,59 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Steven Arroyave - Digital Designer & Developer</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Steven Arroyave - Digital Designer & Developer</title>   <!-- assigning title for the page  --->
+    <link href="css/bootstrap.min.css" rel="stylesheet">      <!-- linking bootstrap cascading style sheet  --->
+    <link href="css/styles.css" rel="stylesheet" type="text/css">     <!-- linking my main style sheet  --->
   </head>
   <body>
-    <div class="topnav">
+    <div class="topnav">      <!-- creating the navigation bar on top and its items  --->
       <a href="#xsocial">CONTACT US</a>
       <a class="#projects" href="#xprojects">PROJECTS</a>
       <a class="#xabout" href="#xabout">ABOUT</a>
     </div>
-    <div id="xcontainer" class="xcontainer">
+    <div id="xcontainer" class="xcontainer">    <!-- container for the home page  --->
       <!--div id='npic'> <img src='img/steven2.gif'> </div-->
       <h1>Steven Arroyave
         <br>
       Web developer.</h1>
     </div>
-    <div name="xabout" class="xabout">
+    <div name="xabout" class="xabout">      <!--  container created for the "about" section --->
       <h2 id="xabout">Design.  <br> Development.</h2>
       <h3> <strong> My name is <mark>Steven Arroyave.</mark> <br> I am a Spanish Digital Designer <br> & Developer based in the UK.</strong> <br>  </h3>
       <p>  I am currently studying <mark>Internet Design</mark> at Plymouth University. <br> My main goal is to focus on <mark>Responsive Web Design</mark>,<br> <mark>Web Development</mark> & <mark>Brand Design</mark>.</p>
     </div>
-    <div name="projects" class="xprojects">
+    <div name="projects" class="xprojects">   <!-- container created for the "projects" section --->
       <h2 id="xprojects"> My work </h2>
       <h3> These are my selected projects. </h3><br>
-      <img style="height:45%; width:45%; padding-right: 60px;" src='img/MOCKUPfinal.png'></img>
-      <p>This is a mock-up website for <br> Plymouth University's web page.<br> Here we created a full, one-page design <br> with a slider, a contact form, and a footer<br> with contact information.<br><a href="https://stevenarroyave.github.io/session5/#" target="_blank">Check out the website.</a></p><br><hr>
+      <img style="height:60%; width:60%; padding-right: 60px;" src='img/MOCKUPfinal.png'></img>
+      <p>This is a mock-up website for <br> Plymouth University's web page.<br> Here we created a fully responsive,<br> one-page design with a slider,<br> a contact form, and a footer<br> with contact information.<br><a href="https://stevenarroyave.github.io/session5/#" target="_blank">Check out the website.</a></p><br><hr>
       <br><br><br><br>
-      <img style="float: left; height:47%; width:47%; padding-right: 100px;" src='img/websitetemplatesmall.png'></img>
-      <p style="text-align: right"> UI Design.<br> Graphic user interface designed as <br> an alternative for the online <br> book store Penguin Books.<br>(Click image to enlarge) </p></a></p><hr>
+      <img class="mockup" style="float: left; height:55%; width:55%; padding-right: 100px;" src='img/websitetemplatesmall.png'></img>
+      <p style="text-align: right"> UI Design.<br> Graphic user interface designed<br>as an alternative for the online <br> book store Penguin Books.</p>
+        <div class="container">    <!-- modal used to display full screenshot  --->
+          <div class="interior">
+            <a class="btn" href="#open-modal">Click to enlarge</a>
+          </div>
+        </div>
+        <div id="open-modal" class="modal-window">
+          <div>
+            <a href="#modal-close" title="Close" class="modal-close">Close</a>
+            <h1>Voilà!</h1>
+            <div><img class="modal-img" src='img/websitetemplate.jpg'></img></div>
+            </div>
+        </div>   <!-- end of modal  --->
+
+      </a></p><hr>
       <br><br><br><br>
       <p style="text-align: left"> Javascript.<br> Generative art created with P5.js <br> with random, organic motion  <br> with the use of loops, objects.<br>and arrays. </p></a></p><br><hr>
+
+
+
+
+
+
+
+
 
    </div>
 
