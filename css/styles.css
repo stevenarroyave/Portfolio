@@ -1,0 +1,177 @@
+@font-face {   /* importing the font that I'll be using  */
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff');
+}
+
+body{
+  background-color: black;
+  font-family:'San Francisco';
+  margin: 0;
+  padding: 0;
+}
+
+.xcontainer {    /* styling the top intro page  */
+  background-color: black;
+  text-align: left;
+  padding-top: 0.9em;
+  padding-left: 5em;
+}
+
+.xabout{  /* styling the second "about me" page  */
+  background-color: white;
+  text-align: right;
+  padding-top: 0.09em;
+  padding-left: 5em;
+  margin-top: 249px;
+}
+
+.xprojects{ /* styling the third "projects" page  */
+  background-color: #E0E0E0;
+  text-align: left;
+  padding-top: 0.09em;
+  padding-left: 5em;
+  margin-top: 0px;
+  }
+
+
+h1{
+  color: white;
+  font-size: 100px;
+  font-weight: 900;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  margin-top: 130px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+h2{
+  color: black;
+  font-size: 90px;
+  font-weight: 900;
+  text-shadow: 0px 2px, 2px 0px, 2px 2px;
+  margin-top: 65px;
+  background-color: rgba(0,0,0,0);
+  margin-right: 60px;
+  margin-bottom: 40px;
+}
+
+h3{
+  color: black;
+  font-size: 40px;
+  font-weight: 10;
+  /*text-shadow: 0px 1px, 1px 0px, 1px 1px; */
+  margin-top: 65px;
+  background-color: rgba(0,0,0,0);
+  margin-right: 60px;
+  margin-bottom:40px;
+  padding-bottom: 0px;
+  line-height: 50px;
+}
+
+h4{
+  color: white;
+  font-size: 32px;
+  font-weight: 1;
+  /*text-shadow: 0px 1px, 1px 0px, 1px 1px; */
+  margin-top: 10px;
+  background-color: rgba(0,0,0,0);
+  margin-right: 60px;
+  margin-bottom:60px;
+  padding-bottom: 60px;
+  line-height: 60px;
+}
+
+p{
+  color: black;
+  font-size: 30px;
+  margin-top: 10px;
+  background-color: rgba(0,0,0,0);
+  margin-right: 60px;
+  margin-bottom:60px;
+  padding-bottom: 60px;
+  line-height: 40px;
+}
+
+p2{
+  color: black;
+  align: left;
+  font-size: 30px;
+  margin-top: 10px;
+  background-color: rgba(0,0,0,0);
+  margin-right: 60px;
+  margin-bottom:60px;
+  padding-bottom: 60px;
+  line-height: 40px;
+}
+
+img{  /* styling the main picture  */
+  float: right;
+  height: 33%;
+  width: 33%;
+  align: top;
+}
+
+hr{
+  width: 90%;
+  align: center;
+}
+
+mark{
+  background-color: rgba(148, 242,255,0,5);
+  padding: 0 0.1em;
+  display: inline-block;
+  height: 1.15em;
+  line-height: 1.15;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    margin-right: 100px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: #FFFFFF;
+}
+
+/* Styling the main home profile picture */
+.npic{
+  float:left;
+  align: right;
+  margin-top: -100px;
+  position: absolute;
+}
+
+
+.grid-container{
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  grid-template-rows: 1;
+
+}
+
+.grid-item {
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  font-size: 35px;
+  background-color: white;
+  padding-right: 10px;
+}
