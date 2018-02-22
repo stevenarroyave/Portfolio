@@ -33,14 +33,14 @@
       <p style="text-align: right"> UI Design.<br> Graphic user interface designed<br>as an alternative for the online <br> book store Penguin Books.</p>
         <div class="container">    <!-- modal used to display full screenshot  --->
           <div class="interior">
-            <a class="btn" href="#open-modal">Click to enlarge</a>
+            <a class="btn" href="#open-modal">Click to enlarge</a> <!--  creating the button that will open the modal  -->
           </div>
         </div>
         <div id="open-modal" class="modal-window">
           <div>
-            <a href="#modal-close" title="Close" class="modal-close">Close</a>
-            <p>Penguin Books website mock-up</p>
-            <div><img class="modal-img" src='img/websitetemplate.jpg'></img></div>
+            <a href="#modal-close" title="Close" class="modal-close">Close</a>  <!--  "close" button to close the modal  -->
+            <p>Penguin Books website mock-up</p>    <!--  title of the modal  -->
+            <div><img class="modal-img" src='img/websitetemplate.jpg'></img></div>    <!--  image displayed in the modal  -->
             </div>
         </div>   <!-- end of modal  --->
       </a></p><hr>
@@ -88,25 +88,23 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
+      </div>  <!--  end of carousel  -->
       <p style="text-align: left"> Javascript.<br> Generative art created with P5.js <br> with random, organic motion  <br> with the use of loops, objects.<br>and arrays. </p></a></p><br><hr>
-
-
    </div>
 
 
-   <footer class="text-center mt-5 pt-5 pb-5">
-    <div id="contactUs" class="container">
+  <footer class="text-center mt-5 pt-5 pb-5">   <!--  creating the footer  -->
+    <div id="contactUs" class="container">    <!--  creating a container for the contact form  -->
      <div class="row">
        <div class="col-md-4 mb-4 mg-lg-0">
          <h4 class="text mb-4">Contact me</h4>
          <hr class="mb-5">
-         <form action="https://formspree.io/johan.ospinaarroyave@students.plymouth.ac.uk" method="POST">
+         <form action="https://formspree.io/johan.ospinaarroyave@students.plymouth.ac.uk" method="POST">  <!--  creating form linked to formspree.io service  -->
              <div class="form-group">
                <input class="form-control" id="name" type="text" placeholder="Name" name="name" required="required">
              </div>
              <div class="form-group">
-                 <input class="form-control" id="email" type="email" placeholder="Email Address" name="email" required="required">
+                 <input class="form-control" id="email" type="email" placeholder="Email Address" name="_replyto" required="required">
              </div>
              <div class="form-group">
                  <textarea class="form-control" id="message" rows="5" placeholder="Message" name="message" required="required"></textarea>
@@ -114,36 +112,38 @@
              <div>
                <button type="submit">Send</button>
                <input type="hidden" name="_next" value="https://stevenarroyave.github.io/PortfolioProject/" />
-
              </div>
-           </form>
-
-
+         </form>
        </div>
        <div class="col-md-4 mb-4 mg-lg-0">
          <h4 class="text mb-4">Social Media</h4>
          <ul class="list-inline mb-0">
            <li class="list-inline-item">
-               <i class="fab fa-facebook"></i>
+             <a href="https://github.com/stevenarroyave" target="_blank"><img src="img/github-icon.png" alt="Github" width="30%" height="30%" border="0">
              </a>
            </li>
            <li class="list-inline-item">
-               <i class="fab fa-google-plus-g"></i>
+             <a href="https://twitter.com/SteevenArroyave" target="_blank"><img src="img/twitter-icon.png" alt="Twitter" width="30%" height="30%" border="0">
              </a>
            </li>
            <li class="list-inline-item">
-               <i class="fab fa-twitter"></i>
+             <a href="https://www.linkedin.com/in/johanstevenarroyave/" target="_blank"><img src="img/linkedin-icon.png" alt="Instagram" width="30%" height="30%" border="0">
+             </a>
+           </li>
+           <li class="list-inline-item">
+             <a href="https://www.facebook.com/Steeven69" target="_blank"><img src="img/facebook-icon.png" alt="Facebook" width="30%" height="30%" border="0">
              </a>
            </li>
          </ul>
        </div>
        <div class="col-md-4 mb-4 mg-lg-0">
-         <h4 class="text mb-4">Twitter Feed</h4>
+         <h4 class="text mb-4">Twitter</h4>
+         <a class="twitter-timeline" data-lang="en" data-width="300" data-height="300" data-dnt="true" data-theme="dark" data-link-color="#19CF86" data-chrome="transparent" href="https://twitter.com/SteevenArroyave?ref_src=twsrc%5Etfw">Tweets by SteevenArroyave</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
          <p></p>
        </div>
-   </div>
- </div>
- </footer>
+      </div>
+     </div>
+   </footer>
 
 
    <div class="text-center pt-1 pb-1" style="background-color: white;">
