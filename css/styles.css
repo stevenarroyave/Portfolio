@@ -187,12 +187,6 @@ mark{
 }
 
 
-
-
-
-
-
-
 /*modal stuff */
 a {
   color: inherit;
@@ -274,3 +268,33 @@ a {
   margin: 0 0 15px;
 }
 /* modal stuff*/
+
+
+.carousel-caption{
+  background-color: rgba(0,0,0,0.2);
+}
+
+
+footer p{
+  color: white;
+}
+
+footer h4{
+  margin-bottom: 10px;
+  font-size: 24px;
+  align: center;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  line-height: 20px;
+}
+
+footer form-group{
+  width: 10px;
+}
+
+.small {
+  color: black;
+  background-color: white;
+}
