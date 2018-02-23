@@ -87,6 +87,17 @@ h4{
   line-height: 60px;
 }
 
+a{
+  color: black;
+  font-size: 18px;
+  margin-top: 0;
+  background-color: rgba(0,0,0,0);
+  margin-right: 10px;
+  margin-bottom:0;
+  padding-bottom: 60px;
+  line-height: 40px;
+}
+
 p{
   color: black;
   font-size: 30px;
@@ -146,12 +157,15 @@ mark{
     text-decoration: none;
     font-size: 17px;
     margin-right: 10px;
+    position: relative;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    color: #FFFFFF;
+    color: #f2f2f2;
 }
+
+
 
 /* Styling the main home profile picture */
 .npic{
@@ -205,14 +219,18 @@ a {
 }
 
 .btn {
+  color: black;
   background-color: #fff;
   padding: 1em 3em;
   border-radius: 3px;
   text-decoration: none;
   float: right;
+  margin-right: 60px;
 }
 
+
 .modal-window {
+  width: 80%;
   position: fixed;
   background-color: rgba(255, 255, 255, 0.15);
   top: 0;
@@ -271,10 +289,12 @@ a {
 
 
 .carousel-caption{
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0);
 }
 
-
+footer{
+  background-color: black;
+}
 footer p{
   color: white;
 }
@@ -315,4 +335,16 @@ footer form-group{
 
 a.twitter-timeline {
   background: black;
+}
+
+.submitBtn{
+  background-color: #fff;
+  padding: 1em 3em;
+  border-radius: 3px;
+  text-decoration: none;
+  float: right;
+}
+
+.mainSlider carousel-caption{
+  background-color: transparent;
 }
