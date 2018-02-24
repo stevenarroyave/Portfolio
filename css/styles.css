@@ -4,7 +4,7 @@
   src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff');
 }
 
-body{
+body{    /*  styling the whole website's body, using the font i imported  */
   background-color: black;
   font-family:'San Francisco';
   margin: 0;
@@ -41,7 +41,7 @@ body{
   }
 
 
-h1{
+h1{   /*  styling the first header style, applying text shadow to make the font look thicker, since the font itself doesn't allow more weight(probably not the best practice but the easiest solution I could find)  */
   color: white;
   font-size: 100px;
   font-weight: 900;
@@ -50,7 +50,7 @@ h1{
 
 }
 
-h2{
+h2{  /*  second header style  */
   color: black;
   font-size: 90px;
   font-weight: 900;
@@ -61,11 +61,10 @@ h2{
   margin-bottom: 40px;
 }
 
-h3{
+h3{         /*  third header style  */
   color: black;
   font-size: 40px;
   font-weight: 10;
-  /*text-shadow: 0px 1px, 1px 0px, 1px 1px; */
   margin-top: 65px;
   background-color: rgba(0,0,0,0);
   margin-right: 60px;
@@ -74,11 +73,10 @@ h3{
   line-height: 50px;
 }
 
-h4{
+h4{   /*  4th header style  */
   color: white;
   font-size: 32px;
   font-weight: 1;
-  /*text-shadow: 0px 1px, 1px 0px, 1px 1px; */
   margin-top: 10px;
   background-color: rgba(0,0,0,0);
   margin-right: 60px;
@@ -87,7 +85,7 @@ h4{
   line-height: 60px;
 }
 
-a{
+a{    /*  tag styling the hyperlinks  */
   color: black;
   font-size: 18px;
   margin-top: 0;
@@ -98,7 +96,7 @@ a{
   line-height: 40px;
 }
 
-p{
+p{   /*  styling the paragraph tag  */
   color: black;
   font-size: 30px;
   margin-top: 0;
@@ -109,17 +107,6 @@ p{
   line-height: 40px;
 }
 
-p2{
-  color: black;
-  align: left;
-  font-size: 30px;
-  margin-top: 10px;
-  background-color: rgba(0,0,0,0);
-  margin-right: 60px;
-  margin-bottom:60px;
-  padding-bottom: 60px;
-  line-height: 40px;
-}
 
 img{  /* styling the main picture  */
   float: right;
@@ -128,12 +115,14 @@ img{  /* styling the main picture  */
   align: top;
 }
 
-hr{
+hr{   /*  styling the line used to divide the projects  */
   width: 90%;
   align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
-mark{
+mark{  /*  styling mark tag used to highlight some words  */
   background-color: rgba(148, 242,255,0,5);
   padding: 0 0.1em;
   display: inline-block;
@@ -141,7 +130,7 @@ mark{
   line-height: 1.15;
 }
 
-/* Add a black background color to the top navigation */
+/*  Add a black background color to the top navigation */
 .topnav {
     background-color: rgba(0,0,0,0.5);
     overflow: hidden;
@@ -164,7 +153,6 @@ mark{
 .topnav a:hover {
     color: #f2f2f2;
 }
-
 
 
 /* Styling the main home profile picture */
@@ -201,7 +189,7 @@ mark{
 }
 
 
-/*modal stuff */
+/*modal stuff css v */
 a {
   color: inherit;
 }
@@ -285,21 +273,21 @@ a {
   font-size: 150%;
   margin: 0 0 15px;
 }
-/* modal stuff*/
+/* end of modal stuff css ^ */
 
 
 .carousel-caption{
   background-color: rgba(0,0,0,0);
 }
 
-footer{
+footer{   /*  styling the footer  */
   background-color: black;
 }
-footer p{
+footer p{  /*  styling the footer's paragraph tag  */
   color: white;
 }
 
-footer h4{
+footer h4{   /*  styling footer's h4 tag  */
   margin-bottom: 10px;
   font-size: 24px;
   align: center;
@@ -314,12 +302,12 @@ footer form-group{
   width: 10px;
 }
 
-.small {
+.small {   /* styling the font used in the very last "copyright" section of the page   */
   color: black;
   background-color: white;
 }
 
-.col-md-4 img{
+.col-md-4 img{    /* styling images displayed in the footer's columns   */
   vertical-align: top;
   display: inline;
   width: 15%;
@@ -327,7 +315,8 @@ footer form-group{
   margin-bottom: 0.5em;"
 }
 
-.col-md-4 li{
+.col-md-4 li{   
+  vertical-align: top;
   display: inline;
   padding-left: 5px;
   padding-right: 5px;
@@ -337,13 +326,6 @@ a.twitter-timeline {
   background: black;
 }
 
-.submitBtn{
-  background-color: #fff;
-  padding: 1em 3em;
-  border-radius: 3px;
-  text-decoration: none;
-  float: right;
-}
 
 .mainSlider carousel-caption{
   background-color: transparent;
